@@ -6,7 +6,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-package com.example.samplestickerapp;
+package com.scoutist.sticker;
 
 import android.content.Context;
 import android.support.annotation.Nullable;
