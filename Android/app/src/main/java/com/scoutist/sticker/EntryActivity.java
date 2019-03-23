@@ -18,12 +18,15 @@ import android.util.Pair;
 import android.view.View;
 import android.widget.TextView;
 
+import com.google.firebase.analytics.FirebaseAnalytics;
+
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;
 
 public class EntryActivity extends BaseActivity {
     private View progressBar;
     private LoadListAsyncTask loadListAsyncTask;
+    private FirebaseAnalytics mFirebaseAnalytics;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -36,6 +39,8 @@ public class EntryActivity extends BaseActivity {
         progressBar = findViewById(R.id.entry_activity_progress);
         loadListAsyncTask = new LoadListAsyncTask(this);
         loadListAsyncTask.execute();
+
+        mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
     }
 
     private void showStickerPack(ArrayList<StickerPack> stickerPackList) {

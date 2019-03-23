@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "705497656817",
+    "firebase_url": "https://scoutist-sticker.firebaseio.com",
+    "project_id": "scoutist-sticker",
+    "storage_bucket": "scoutist-sticker.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:705497656817:android:375dc632ddf13fe7",
+        "android_client_info": {
+          "package_name": "com.scoutist.sticker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "705497656817-dsbi46b0gklrmaqpgft6tj1l8kihk6op.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.scoutist.sticker",
+            "certificate_hash": "cdfea986374d5a3f4467f0e53b859399116a1d1f"
+          }
+        },
+        {
+          "client_id": "705497656817-84a0dhat3aouirl14hukm3h2boe5ouqg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxpl2b0PSzLnJ92OXOt7-dvjrwywsfta0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "705497656817-84a0dhat3aouirl14hukm3h2boe5ouqg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
